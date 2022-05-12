@@ -10,6 +10,8 @@ test: ${JAVA_FILES}
 ${PACKAGE}:
 	mvn package -f AsteroidsLibGDX/pom.xml
 
+package: ${PACKAGE}
+
 run: ${PACKAGE}
 	java -jar ${PACKAGE}
 
