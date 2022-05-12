@@ -1,5 +1,8 @@
 # IntroLab
 
+![introlab-demo](https://user-images.githubusercontent.com/7005867/168121757-c388ef2e-69dd-490d-a5d6-71d22ec579a2.gif)
+
+
 ### Running the game
 
 ##### Via make target
