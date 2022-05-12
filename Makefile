@@ -1,6 +1,8 @@
 JAVA_FILES=$(shell find AsteroidsLibGDX -type f -name "*.java")
 PACKAGE=bin/AsteroidsLibGDX-1.0-SNAPSHOT.jar
 
+default all:run 
+
 install: AsteroidsLibGDX/pom.xml
 	mvn install -f AsteroidsLibGDX/pom.xml
 
@@ -14,5 +16,3 @@ package: ${PACKAGE}
 
 run: ${PACKAGE}
 	java -jar ${PACKAGE}
-
-.DEFAULT:run
